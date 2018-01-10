@@ -1621,15 +1621,6 @@ wget -nc -q --show-progress https://img.scryfall.com/cards/large/en/rix/205.jpg 
     mkdir ./RIX
     find . -name "*.jpg" -exec mv "{}" ./RIX \;
 
-    echo ""
-    echo " Packaging to zip... "
-    echo ""
-
-    zip -rm RIX.zip RIX
-
-    echo ""
-    echo " Done packaging."
-    echo ""
 
 }
 
